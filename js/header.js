@@ -1,3 +1,14 @@
+window['optimizely'] = window['optimizely'] || [];
+window['optimizely'].push({
+  type: "event",
+  eventName: "time_on_page",
+  tags: {
+    revenue: 0, // Optional in cents as integer (500 == $5.00)
+    value: 0.00 // Optional as float
+  }
+});
+
+
 const headerButtonMenu = document.querySelector('.js-headerButtonMenu')
 const header = document.querySelector('.js-header')
 
