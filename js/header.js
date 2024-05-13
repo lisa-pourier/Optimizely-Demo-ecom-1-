@@ -1,12 +1,22 @@
-window['optimizely'] = window['optimizely'] || [];
-window['optimizely'].push({
-  type: "event",
-  eventName: "time_on_page",
-  tags: {
-    revenue: 0, // Optional in cents as integer (500 == $5.00)
-    value: 0.00 // Optional as float
-  }
-});
+// audience attribute: logged in users
+
+// function checkLoginStatus () {
+//   const loggedIn = true;
+//   if (loggedIn) {
+//     window.optimizely = window.optimizely || [];
+//     window.optimizely.push({
+//       "type": "user",
+//       "attributes": {
+//         "login_status": "custom attribute value"
+//       }
+//     });
+//   } else {
+//     // do nothing;
+//   }
+// };
+
+
+
 
 
 const headerButtonMenu = document.querySelector('.js-headerButtonMenu')
