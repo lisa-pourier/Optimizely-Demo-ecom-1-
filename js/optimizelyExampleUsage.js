@@ -1,4 +1,4 @@
-// I had initially a created a separate .js file in the config folder, for the SDK initialization but decided to move it here for now.
+// note: I had initially created a separate .js file in the config folder, for the SDK initialization but decided to move it here
 
 // initialize the SDK and create the instance:
 import { createInstance } from '@optimizely/optimizely-sdk';
